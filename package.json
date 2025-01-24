@@ -9,7 +9,7 @@
     "lint:fix": "prettier --write .",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "postgre": "docker compose -f infra/compose.yaml up -d"
+    "postgres": "docker compose -f infra/compose.yaml up -d"
   },
   "author": "",
   "license": "MIT",
